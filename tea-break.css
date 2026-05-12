@@ -1,0 +1,271 @@
+﻿:root {
+  --b24-blue-900: #063383;
+  --b24-blue-800: #0a469f;
+  --b24-cyan-500: #35b8e5;
+  --b24-danger: #ff351a;
+  --b24-surface: #e7e8ea;
+  --b24-surface-2: #ececef;
+  --b24-border: #d1d5db;
+  --b24-text: #262a2f;
+  --b24-muted: #6c7787;
+  --b24-dark-th: #5d5d5d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Open Sans", Arial, sans-serif;
+  color: var(--b24-text);
+  background:
+    radial-gradient(55% 65% at 80% 5%, rgba(55, 101, 196, 0.65) 0%, rgba(11, 44, 114, 0) 75%),
+    radial-gradient(45% 45% at 100% 100%, rgba(23, 201, 241, 0.5) 0%, rgba(23, 201, 241, 0) 70%),
+    linear-gradient(180deg, #0a3a92 0%, #0b317f 100%);
+}
+
+.doc-page {
+  min-height: 100vh;
+  padding: 14px 12px 24px;
+}
+
+.doc-header h1 {
+  margin: 8px 0 22px;
+  color: #fff;
+  font-size: clamp(2rem, 3vw, 2.85rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.doc-surface {
+  background: var(--b24-surface);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 22px;
+}
+
+.doc-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 286px;
+  gap: 18px;
+  align-items: start;
+}
+
+.meta-card,
+.content-card {
+  background: var(--b24-surface);
+  border: 1px solid var(--b24-border);
+  border-radius: 14px;
+}
+
+.meta-card {
+  padding: 10px 18px;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.meta-row {
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 1px solid #dadde2;
+  padding: 10px 18px;
+}
+
+.meta-row:nth-last-child(-n + 2) {
+  min-height: 74px;
+}
+
+.meta-grid .meta-row:nth-last-child(1),
+.meta-grid .meta-row:nth-last-child(2) {
+  border-bottom: 0;
+}
+
+.meta-row.full {
+  grid-column: 1 / -1;
+  min-height: 74px;
+}
+
+.meta-label {
+  color: var(--b24-muted);
+  min-width: 128px;
+  font-size: 1.04rem;
+}
+
+.meta-value,
+.meta-user {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f2328;
+}
+
+.meta-value,
+.meta-links,
+.meta-user {
+  font-size: clamp(1.05rem, 1.5vw, 2rem);
+}
+
+.avatar {
+  display: inline-grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #17a8e9;
+  font-size: 1.35rem;
+  margin-right: 12px;
+}
+
+.meta-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.meta-links a {
+  color: #31afe3;
+  text-decoration: none;
+}
+
+.meta-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 58px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid #c4c9d0;
+  background: #dfe3e8;
+  font-weight: 700;
+  color: #48515a;
+}
+
+.action-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  min-height: 64px;
+  border-radius: 8px;
+  border: 1px solid #b8bfc8;
+  background: #eceef0;
+  color: #5b6676;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #43b7dd;
+  border-color: #43b7dd;
+  color: #fff;
+}
+
+.btn-danger {
+  background: var(--b24-danger);
+  border-color: var(--b24-danger);
+  color: #fff;
+}
+
+.content-card {
+  margin-top: 20px;
+  padding: 26px 32px;
+}
+
+.content-card h2,
+.content-card h3 {
+  margin: 10px 0 14px;
+  font-size: clamp(2rem, 2.1vw, 3rem);
+  line-height: 1.2;
+}
+
+.content-card p {
+  margin: 0 0 14px;
+  font-size: clamp(1.2rem, 1.3vw, 1.95rem);
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: min(100%, 1420px);
+  border-collapse: collapse;
+  margin-top: 8px;
+  background: transparent;
+}
+
+th,
+td {
+  border: 1px solid #c8ccd2;
+  padding: 18px 16px;
+  text-align: left;
+  font-size: clamp(1.06rem, 1.15vw, 1.72rem);
+  font-weight: 600;
+}
+
+th {
+  background: var(--b24-dark-th);
+  color: #efefef;
+  font-weight: 700;
+}
+
+tbody tr {
+  background: var(--b24-surface-2);
+}
+
+@media (max-width: 1240px) {
+  .doc-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .action-panel {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 840px) {
+  .doc-surface {
+    padding: 14px;
+  }
+
+  .meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .meta-row,
+  .meta-row.full {
+    min-height: auto;
+    padding: 12px;
+    flex-wrap: wrap;
+  }
+
+  .meta-label {
+    min-width: 100%;
+  }
+
+  .action-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    min-height: 52px;
+  }
+
+  .content-card {
+    padding: 18px;
+  }
+}
