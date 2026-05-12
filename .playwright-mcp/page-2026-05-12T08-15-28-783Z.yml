@@ -1,0 +1,126 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Bitrix24 Expert" [ref=e3] [cursor=pointer]:
+      - /url: "#hero"
+    - button "Открыть меню" [expanded] [active] [ref=e4]: Меню
+    - navigation [ref=e95]:
+      - link "Услуги" [ref=e96] [cursor=pointer]:
+        - /url: "#services"
+      - link "Процесс" [ref=e97] [cursor=pointer]:
+        - /url: "#process"
+      - link "Кейсы" [ref=e98] [cursor=pointer]:
+        - /url: "#cases"
+      - link "Форматы" [ref=e99] [cursor=pointer]:
+        - /url: "#pricing"
+      - link "FAQ" [ref=e100] [cursor=pointer]:
+        - /url: "#faq"
+      - link "Контакты" [ref=e101] [cursor=pointer]:
+        - /url: ./contacts.html
+      - link "Оставить заявку" [ref=e102] [cursor=pointer]:
+        - /url: "#lead-form"
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - paragraph [ref=e7]: Экспертные консультации по Битрикс24
+      - heading "Превращаем Битрикс24 в рабочую систему, а не в набор недонастроенных модулей" [level=1] [ref=e8]
+      - paragraph [ref=e9]: С 2010 года помогаем собственникам, руководителям продаж и операционным командам выстроить в Битрикс24 управляемые процессы, автоматизацию и прозрачную аналитику под KPI.
+      - generic [ref=e10]:
+        - link "Получить консультацию" [ref=e11] [cursor=pointer]:
+          - /url: "#lead-form"
+        - link "Смотреть форматы работы" [ref=e12] [cursor=pointer]:
+          - /url: "#services"
+      - list [ref=e13]:
+        - listitem [ref=e14]: 150+ реализованных проектов в CRM и порталах
+        - listitem [ref=e15]: "Команда 45+ специалистов: аналитики, разработка, QA, интеграция"
+        - listitem [ref=e16]: Работа по SLA и постоплата за принятый результат
+    - generic [ref=e17]:
+      - heading "Что вы получаете" [level=2] [ref=e18]
+      - generic [ref=e19]:
+        - article [ref=e20]:
+          - heading "Экспресс-аудит" [level=3] [ref=e21]
+          - paragraph [ref=e22]: Разбор текущего контура CRM, воронок, роботов и отчётности с картой критичных точек.
+        - article [ref=e23]:
+          - heading "Стратегическая сессия" [level=3] [ref=e24]
+          - paragraph [ref=e25]: Проектирование целевой архитектуры Битрикс24 под ваши процессы продаж, сервиса и операционного блока.
+        - article [ref=e26]:
+          - heading "Точечная донастройка" [level=3] [ref=e27]
+          - paragraph [ref=e28]: "Сопровождение запуска: приоритетные автоматизации, контроль качества внедрения и обучение ключевых ролей."
+    - generic [ref=e29]:
+      - heading "Как проходит работа" [level=2] [ref=e30]
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - strong [ref=e33]: Бриф и диагностика.
+          - text: Уточняем цели, ограничения и критерии успеха.
+        - listitem [ref=e34]:
+          - strong [ref=e35]: Аудит и гипотезы.
+          - text: Находим, где теряются заявки, скорость и управляемость.
+        - listitem [ref=e36]:
+          - strong [ref=e37]: План внедрения.
+          - text: "Формируем roadmap: быстрые победы, среднесрочные изменения, риски."
+        - listitem [ref=e38]:
+          - strong [ref=e39]: Сопровождение.
+          - text: Помогаем внедрить приоритетные изменения и закрепить результат.
+    - generic [ref=e40]:
+      - heading "Результаты клиентов" [level=2] [ref=e41]
+      - generic [ref=e42]:
+        - article [ref=e43]:
+          - paragraph [ref=e44]: С 2010
+          - paragraph [ref=e45]: практический опыт внедрения и развития решений на базе Битрикс24
+        - article [ref=e46]:
+          - paragraph [ref=e47]: 150+
+          - paragraph [ref=e48]: проектов в CRM, корпоративных порталах, интеграциях и автоматизации
+        - article [ref=e49]:
+          - paragraph [ref=e50]: TOP-10
+          - paragraph [ref=e51]: интеграторов и разработчиков CRM Битрикс24 по версии Рейтинга Рунета 2025
+    - generic [ref=e52]:
+      - heading "Форматы консультаций" [level=2] [ref=e53]
+      - generic [ref=e54]:
+        - article [ref=e55]:
+          - heading "Разовая консультация" [level=3] [ref=e56]
+          - paragraph [ref=e57]: 90 мин
+          - paragraph [ref=e58]: Для точечного разбора задачи и рекомендаций по следующему шагу команды.
+        - article [ref=e59]:
+          - heading "Аудит + Roadmap" [level=3] [ref=e60]
+          - paragraph [ref=e61]: 1-2 недели
+          - paragraph [ref=e62]: Полная диагностика и конкретный план развития Битрикс24 с приоритетами и метриками.
+        - article [ref=e63]:
+          - heading "Сопровождение внедрения" [level=3] [ref=e64]
+          - paragraph [ref=e65]: от 1 месяца
+          - paragraph [ref=e66]: Совместная работа с вашей командой до наблюдаемого результата в процессах и цифрах.
+    - generic [ref=e67]:
+      - heading "Частые вопросы" [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - group [ref=e70]:
+          - generic "Нужен ли нам новый Битрикс24-портал?" [ref=e71] [cursor=pointer]
+        - group [ref=e72]:
+          - generic "Вы работаете с внутренней командой клиента?" [ref=e73] [cursor=pointer]
+        - group [ref=e74]:
+          - generic "Можно начать с малого?" [ref=e75] [cursor=pointer]
+    - generic [ref=e76]:
+      - heading "Оставьте заявку на консультацию" [level=2] [ref=e77]
+      - paragraph [ref=e78]: Напишите, что уже настроено и где сейчас основной блокер — подготовим предметный первый созвон.
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - text: Имя
+          - textbox "Имя" [ref=e81]:
+            - /placeholder: Как к вам обращаться
+        - generic [ref=e82]:
+          - text: Рабочий e-mail
+          - textbox "Рабочий e-mail" [ref=e83]:
+            - /placeholder: name@company.ru
+        - generic [ref=e84]:
+          - text: Что хотите улучшить в Битрикс24
+          - textbox "Что хотите улучшить в Битрикс24" [ref=e85]:
+            - /placeholder: Кратко опишите задачу, текущую ситуацию и желаемый результат
+        - button "Отправить заявку" [ref=e86]
+        - status [ref=e87]
+  - contentinfo [ref=e88]:
+    - navigation "Подвал сайта" [ref=e89]:
+      - link "Главная" [ref=e90] [cursor=pointer]:
+        - /url: "#hero"
+      - link "Услуги" [ref=e91] [cursor=pointer]:
+        - /url: "#services"
+      - link "Заявка" [ref=e92] [cursor=pointer]:
+        - /url: "#lead-form"
+      - link "Контакты" [ref=e93] [cursor=pointer]:
+        - /url: ./contacts.html
+    - paragraph [ref=e94]: © 2026 Bitrix24 Expert Consulting

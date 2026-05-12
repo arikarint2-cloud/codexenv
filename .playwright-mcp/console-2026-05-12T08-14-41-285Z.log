@@ -1,0 +1,4 @@
+[      15ms] [ERROR] The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element. @ http://localhost:4173/index.html:5
+[   15782ms] [ERROR] The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element. @ http://localhost:4173/index.html:5
+[   18217ms] [ERROR] The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element. @ http://localhost:4173/contacts.html:5
+[   22832ms] [ERROR] The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element. @ http://localhost:4173/contacts.html:5

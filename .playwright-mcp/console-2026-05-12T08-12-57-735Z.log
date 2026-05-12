@@ -1,0 +1,1 @@
+[   55332ms] [ERROR] The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element. @ http://localhost:4173/index.html:5

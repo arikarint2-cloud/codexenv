@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Bitrix24 Expert" [ref=e3] [cursor=pointer]:
+      - /url: ./index.html#hero
+    - button "Открыть меню" [ref=e4]: Меню
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - paragraph [ref=e7]: Связаться с нами
+      - heading "Контакты команды Bitrix24 Expert" [level=1] [ref=e8]
+      - paragraph [ref=e9]: "Расскажите о задаче по Битрикс24, и мы предложим удобный формат консультации: разбор, аудит или сопровождение внедрения."
+    - generic [ref=e10]:
+      - heading "Каналы связи" [level=2] [ref=e11]
+      - generic [ref=e12]:
+        - article [ref=e13]:
+          - heading "E-mail" [level=3] [ref=e14]
+          - paragraph [ref=e15]:
+            - link "hello@bitrix24-expert.ru" [ref=e16] [cursor=pointer]:
+              - /url: mailto:hello@bitrix24-expert.ru
+        - article [ref=e17]:
+          - heading "Телефон" [level=3] [ref=e18]
+          - paragraph [ref=e19]:
+            - link "+7 (495) 000-00-00" [ref=e20] [cursor=pointer]:
+              - /url: tel:+74950000000
+        - article [ref=e21]:
+          - heading "Telegram" [level=3] [ref=e22]
+          - paragraph [ref=e23]:
+            - link "@bitrix24_expert" [ref=e24] [cursor=pointer]:
+              - /url: https://t.me/bitrix24_expert
+    - generic [ref=e25]:
+      - heading "Быстрый запрос" [level=2] [ref=e26]
+      - paragraph [ref=e27]: Заполните форму, и мы вернемся с предложением по следующему шагу в течение рабочего дня.
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - text: Имя
+          - textbox "Имя" [ref=e30]:
+            - /placeholder: Как к вам обращаться
+        - generic [ref=e31]:
+          - text: Рабочий e-mail
+          - textbox "Рабочий e-mail" [ref=e32]:
+            - /placeholder: name@company.ru
+        - generic [ref=e33]:
+          - text: Что хотите улучшить в Битрикс24
+          - textbox "Что хотите улучшить в Битрикс24" [ref=e34]:
+            - /placeholder: Кратко опишите задачу, текущую ситуацию и желаемый результат
+        - button "Отправить заявку" [ref=e35]
+        - status [ref=e36]
+  - contentinfo [ref=e37]:
+    - navigation "Подвал сайта" [ref=e38]:
+      - link "Главная" [ref=e39] [cursor=pointer]:
+        - /url: ./index.html#hero
+      - link "Услуги" [ref=e40] [cursor=pointer]:
+        - /url: ./index.html#services
+      - link "Заявка" [ref=e41] [cursor=pointer]:
+        - /url: ./index.html#lead-form
+      - link "Контакты" [ref=e42] [cursor=pointer]:
+        - /url: ./contacts.html
+    - paragraph [ref=e43]: © 2026 Bitrix24 Expert Consulting
